@@ -24,16 +24,18 @@
         ex quis laborum quas ea ad obcaecati doloribus.
     </p>
     <hr>
-    <p>
-        <blockquote cite="http:www.wordlife.org/who/index.html">Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+    <blockquote cite="http:www.wordlife.org/who/index.html">Lorem, ipsum dolor sit amet consectetur adipisicing elit.
         Non, dolores.
-        </blockquote>
-    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Molestias quod eveniet beatae dicta amet aliquid deserunt
-    debitis minus voluptates optio. Quaerat esse, ipsum labore dolores asperiores sunt adipisci numquam possimus
-    quisquam maiores temporibus sit illum animi ut odit dolore nisi a officiis illo facilis dolor debitis explicabo
-    porro. Consectetur at fugiat et, labore dolor voluptatum commodi aspernatur atque eligendi illo qui ratione
-    explicabo ad delectus doloribus praesentium fugit possimus sequi voluptatem quae voluptates! Omnis porro et quam
-    minima voluptas eum!
+    </blockquote>
+    <p>
+
+        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Molestias quod eveniet beatae dicta amet aliquid
+        deserunt
+        debitis minus voluptates optio. Quaerat esse, ipsum labore dolores asperiores sunt adipisci numquam possimus
+        quisquam maiores temporibus sit illum animi ut odit dolore nisi a officiis illo facilis dolor debitis explicabo
+        porro. Consectetur at fugiat et, labore dolor voluptatum commodi aspernatur atque eligendi illo qui ratione
+        explicabo ad delectus doloribus praesentium fugit possimus sequi voluptatem quae voluptates! Omnis porro et quam
+        minima voluptas eum!
     </p>
     <p>
         <del>Lorem ipsum</del> <ins>dolor</ins> sit amet consectetur adipisicing elit. Sit necessitatibus eos doloribus
@@ -53,7 +55,7 @@
     <h5>Ötödik címsor</h5>
     <h6>Hatodik címsor</h6>
     <p>
-        Ma reggel <time>>8 órakor</time> keltem fel
+        Ma reggel <time>08:00</time> keltem fel
     </p>
     <dl>
         <dt>Kalapács</dt>
@@ -78,13 +80,13 @@
         <img src="image.jpg" alt="Teázás">
         <figcaption>A teázás</figcaption>
     </figure>
-   
+
     <main>
         Weboldalnak a tényleges tartalma.
         Csak egy db lehet.
         Egyedi tartalommal kell rendelkeznie.
     </main>
-    
+
     <nav>
         Navigáció
     </nav>
@@ -109,34 +111,64 @@
     <form method="POST">
         <fieldset>
             <legend>Űrlap címe</legend>
-        <ul>
-            <li>
-                <input type="text">
-            </li>
-            <li>
-                <input type="emal">   
-            </li>
-            <li>
-                <input type="password">
-            </li>
-            <li>
-                <input type="tel">
-            </li>
-            <li>
-                <input type="file">
-            </li>
-            <li>
-                <input type="submit" value="Tea">
-            </li>
-           
-
-            <select>
-              <option>pirod</option>
-              <option>kék</option>
-              <option>sárga</option>
-            </select>
-            </li>
-        </ul>
+            <ul>
+                <li>
+                    <input type="text">
+                </li>
+                <li>
+                    <input type="email">
+                </li>
+                <li>
+                    <input type="password">
+                </li>
+                <li>
+                    <label for="phone-input">Telefonszám</label>
+                    <input type="tel" id="phone-input">
+                </li>
+                <li>
+                    <input type="file">
+                </li>
+                <li>
+                    <label for="date">Dátum</label>
+                    <input type="checkbox" id="date">
+                </li>
+                <li>
+                    <input type="submit" value="Tea">
+                </li>
+                <li>
+                    <label for="elso">Első</label><input type="radio" name="válasz" id="elso">
+                    <label for="masodik">Második</label><input type="radio" name="válasz" id="masodik">
+                    <label for="harmadik"></label>Harmadik<input type="radio" name="válasz" id="harmadik">
+                </li>
+                <li>
+                    <select>
+                        <option>piros</option>
+                        <option>kék</option>
+                        <option>sárga</option>
+                    </select>
+                </li>
+                <li>
+                    <select>
+                        <optgroup label="Olasz autók">
+                            <option>Fiat</option>
+                            <option>Alfa Romeo</option>
+                        </optgroup>
+                        <optgroup label="Német autók">
+                            <option>Audi</option>
+                            <option>Mercedes</option>
+                        </optgroup>
+                    </select>
+                </li>
+                <li>
+                    <textarea></textarea>
+                </li>
+                <li>
+                    <progress value="30" max="100"></progress>
+                </li>
+                <li>
+                    <button>Gombocska</button>
+                </li>
+            </ul>
         </fieldset>
     </form>
 </body>
